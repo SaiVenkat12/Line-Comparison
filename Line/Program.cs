@@ -34,12 +34,20 @@ namespace Line
             Console.Write("y4: ");
             double y4 = Convert.ToInt32(Console.ReadLine());
 
-            double length1 = Math.Sqrt((Math.Pow((x2 - x1), 2)) + (Math.Pow((y2 - y1), 2)));
-            Console.WriteLine("The Lenth of Line 1 : " + length1);
+            double len1 = Math.Sqrt((Math.Pow((x2 - x1), 2)) + (Math.Pow((y2 - y1), 2)));
+            Console.WriteLine("The Lenth of Line 1 : " + len1);
 
-            double Length2 = Math.Sqrt(Math.Pow((x4 - x3), 2) + Math.Pow((y4 - y3), 2));
-            Console.WriteLine("The Length of line 2 : " + Length2);
+            double Len2 = Math.Sqrt(Math.Pow((x4 - x3), 2) + Math.Pow((y4 - y3), 2));
+            Console.WriteLine("The Length of line 2 : " + Len2);
 
+            if(len1 == Len2 )
+            {
+                Console.WriteLine("Line1 is equal to Line2");
+            }
+            else
+            {
+                Console.WriteLine("Line1 is not equal to Line2");
+            }
         }
     }
 }
