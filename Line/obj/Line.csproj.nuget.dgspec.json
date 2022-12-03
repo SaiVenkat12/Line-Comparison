@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\venky\\source\\Emp\\Line\\Line.csproj": {}
+    "C:\\Users\\venky\\source\\LineComparison\\Line\\Line.csproj": {}
   },
   "projects": {
-    "C:\\Users\\venky\\source\\Emp\\Line\\Line.csproj": {
+    "C:\\Users\\venky\\source\\LineComparison\\Line\\Line.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\venky\\source\\Emp\\Line\\Line.csproj",
+        "projectUniqueName": "C:\\Users\\venky\\source\\LineComparison\\Line\\Line.csproj",
         "projectName": "Line",
-        "projectPath": "C:\\Users\\venky\\source\\Emp\\Line\\Line.csproj",
+        "projectPath": "C:\\Users\\venky\\source\\LineComparison\\Line\\Line.csproj",
         "packagesPath": "C:\\Users\\venky\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\venky\\source\\Emp\\Line\\obj\\",
+        "outputPath": "C:\\Users\\venky\\source\\LineComparison\\Line\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\venky\\AppData\\Roaming\\NuGet\\NuGet.Config",
