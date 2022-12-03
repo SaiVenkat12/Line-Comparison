@@ -37,16 +37,20 @@ namespace Line
             double len1 = Math.Sqrt((Math.Pow((x2 - x1), 2)) + (Math.Pow((y2 - y1), 2)));
             Console.WriteLine("The Lenth of Line 1 : " + len1);
 
-            double Len2 = Math.Sqrt(Math.Pow((x4 - x3), 2) + Math.Pow((y4 - y3), 2));
-            Console.WriteLine("The Length of line 2 : " + Len2);
+            double len2 = Math.Sqrt(Math.Pow((x4 - x3), 2) + Math.Pow((y4 - y3), 2));
+            Console.WriteLine("The Length of line 2 : " + len2);
 
-            if(len1 == Len2 )
+            if(len1 == len2 )
             {
                 Console.WriteLine("Line1 is equal to Line2");
             }
-            else
+            else if(len1 > len2)
             {
-                Console.WriteLine("Line1 is not equal to Line2");
+                Console.WriteLine("Line1 is Greater than to Line2");
+            }
+            else 
+            {
+                Console.WriteLine("Line1 is Lessthan to Line2");
             }
         }
     }
